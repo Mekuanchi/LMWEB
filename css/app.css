@@ -1,0 +1,107 @@
+
+section.header{
+    color:#fff;
+    background-image:url("../images/general/BackLockedScreen3.jpg")
+}
+section.header img{
+    position:absolute;
+    right:0;
+    bottom:-5em;
+    display:block
+}
+section.header .slogan{
+    font-size:2.7em;
+    font-family:"Open Sans",sans-serif;
+    width:auto;
+    line-height:110%;
+    margin-top:1.3em;
+    margin-bottom:1em;
+    text-align: center
+}
+
+section.header .subtitle{
+    font-size:1.1em;
+    margin-top:1em;
+    line-height:30%
+}
+.newsletter{
+    text-align: center;
+    
+}
+
+section.header .container{
+    width:auto;
+    height:auto
+}
+.customers-logo {
+    margin:0.1em;
+    display:block;
+    text-align: center
+}
+.iconemetier{
+    width: 100px;
+    height: 100px; 
+    color-svg: #b4ae24;
+    fill:#b4ae24;
+}
+img.iconemetier svg{
+    fill:#b4ae24;
+}
+.iconeEmail{
+    width: 100px;
+    height: 100px;
+    text-color: #b4ae24;
+    color: #b4ae24;
+    fill: #b4ae24;
+}
+.iconeEmail:hover{
+    width: 102px;
+    height:120px;
+    transition-duration: 0,8s;
+    
+    
+}
+.partners-logo {
+    margin:1em;
+    display:flex;
+    text-align: center;
+}
+.item img {
+    width:250px
+}
+nav #menu-button svg{
+    margin:0;
+    width:100%;
+    float:right;
+    display:block;
+    color:#b4ae24;
+}
+nav #menu-button p{
+    display:none;
+}
+h2{
+    margin-bottom:0;
+    color:#b4ae24;
+    text-align:center;
+}
+h3{
+    color:#b4ae24;
+}
+p{
+    text-align:center;
+}
+
+footer{
+    background-color:#353638;
+    height:auto;padding-top:5em;
+    padding-bottom:2em;
+}
+footer .container{
+    padding-top:0;
+    background-color:transparent;
+}
+footer p{
+    margin:2em;
+    line-height:3em;
+    text-align:center;
+    margin-bottom:1em;
