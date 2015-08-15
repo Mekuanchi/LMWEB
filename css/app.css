@@ -3,12 +3,14 @@ section.header{
     color:#fff;
     background-image:url("../images/general/BackLockedScreen3.jpg")
 }
+
 section.header img{
     position:absolute;
     right:0;
     bottom:-5em;
     display:block
 }
+
 section.header .slogan{
     font-size:2.7em;
     font-family:"Open Sans",sans-serif;
@@ -24,29 +26,33 @@ section.header .subtitle{
     margin-top:1em;
     line-height:30%
 }
+
 .newsletter{
     text-align: center;
-    
 }
 
 section.header .container{
     width:auto;
     height:auto
 }
+
 .customers-logo {
     margin:0.1em;
     display:block;
     text-align: center
 }
+
 .iconemetier{
     width: 100px;
     height: 100px; 
     color-svg: #b4ae24;
     fill:#b4ae24;
 }
-img.iconemetier svg{
+
+.iconemetier{
     fill:#b4ae24;
 }
+
 .iconeEmail{
     width: 100px;
     height: 100px;
@@ -54,21 +60,35 @@ img.iconemetier svg{
     color: #b4ae24;
     fill: #b4ae24;
 }
+
 .iconeEmail:hover{
     width: 102px;
     height:120px;
-    transition-duration: 0,8s;
-    
-    
+    transition-duration: 0.8s;
 }
+
+.textProjet{
+    text-align: center;
+}
+
+.iconeProjet{
+    width: auto;
+    height: 210px;
+    /*margin-left: auto;
+    margin-right: auto;
+    display: block;*/
+}
+
 .partners-logo {
     margin:1em;
     display:flex;
     text-align: center;
 }
+
 .item img {
     width:250px
 }
+
 nav #menu-button svg{
     margin:0;
     width:100%;
@@ -76,9 +96,11 @@ nav #menu-button svg{
     display:block;
     color:#b4ae24;
 }
+
 nav #menu-button p{
     display:none;
 }
+
 h2{
     margin-bottom:0;
     color:#b4ae24;
@@ -91,17 +113,32 @@ p{
     text-align:center;
 }
 
+
+section.content_middle_picture h2{font-family:"Open Sans",sans-serif;}
+section.content_middle_picture h3{margin-bottom: auto;}
+section.content_middle_picture ul{margin-top:auto;}
+section.content_middle_picture p{margin-right:auto;
+width: auto;
+    line-height: 90%;
+}
+section.content_middle_picture ul li.left p,section.content_middle_picture ul li.left h3{text-align:center}
+
+section.content_middle_picture ul li.right p,section.content_middle_picture ul li.right  h3{text-align:center}
+
+
 footer{
     background-color:#353638;
-    height:auto;padding-top:5em;
+    height:auto;
+    padding-top:5em;
     padding-bottom:2em;
 }
 footer .container{
     padding-top:0;
     background-color:transparent;
 }
-footer p{
-    margin:2em;
-    line-height:3em;
-    text-align:center;
-    margin-bottom:1em;
+footer p {
+    margin: 2em;
+    line-height: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+}
