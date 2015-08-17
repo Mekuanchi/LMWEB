@@ -69,7 +69,7 @@ $(document).ready(function () {
     }
 
     $.each(sections, function (index, value) {
-        
+
         $('section#' + value).waypoint(function () {
 
             if (value == 'counters') {
@@ -86,7 +86,7 @@ $(document).ready(function () {
 
                 if ($('#counter1').length > 0) {
 
-                    var counter1 = new countUp("counter1", 0, 0, 0, 2, options);
+                    var counter1 = new countUp("counter1", 0, 2015, 0, 2, options);
                     counter1.start();
                     $("#counter1").removeAttr("id");
 
@@ -94,7 +94,7 @@ $(document).ready(function () {
 
                 if ($('#counter2').length > 0) {
 
-                    var counter2 = new countUp("counter2", 0, 9, 0, 2, options);
+                    var counter2 = new countUp("counter2", 0, 2016, 0, 2, options);
                     counter2.start();
                     $("#counter2").removeAttr("id");
 
@@ -102,12 +102,34 @@ $(document).ready(function () {
 
                 if ($('#counter3').length > 0) {
 
-                    var counter3 = new countUp("counter3", 0, 11, 0, 2, options);
+                    var counter3 = new countUp("counter3", 0, 2017, 0, 2, options);
                     counter3.start();
                     $("#counter3").removeAttr("id");
 
                 }
+                if ($('#counter4').length > 0) {
 
+                    var counter4 = new countUp("counter4", 0, 2018, 0, 2, options);
+                    counter4.start();
+                    $("#counter4").removeAttr("id");
+
+                }
+
+                if ($('#counter5').length > 0) {
+
+                    var counter5 = new countUp("counter5", 0, 2019,0, 2, options);
+                    counter5.start();
+                    $("#counter5").removeAttr("id");
+
+                }
+
+                if ($('#counter6').length > 0) {
+
+                    var counter6 = new countUp("counter6", 0,2010, 0, 2, options);
+                    counter6.start();
+                    $("#counter6").removeAttr("id");
+
+                }
             }
 
             if ($('section#' + value + ' .firstTransition')) {
@@ -123,7 +145,7 @@ $(document).ready(function () {
                 }, 0);
             }
 
-            
+
             if ($('section#' + value + ' .secondTransition')) {
                 setTimeout(function () {
                     $('section#' + value + ' .transitionFadeIn.secondTransition').addClass('animated fadeIn');
@@ -136,7 +158,7 @@ $(document).ready(function () {
                     $('section#' + value + ' .transitionBounceInRight.secondTransition').addClass('animated bounceInRight');
                 }, 600);
             }
-           
+
 
         }, { offset: '50%'});
 

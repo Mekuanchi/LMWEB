@@ -43,20 +43,22 @@ section.header .container{
 }
 
 .iconemetier{
-    width: 100px;
-    height: 100px; 
-    color-svg: #b4ae24;
+    width: 80px;
+    height: 80px;
     fill:#b4ae24;
+    text-shadow: 20px 200px 2px black;
 }
+section.itemsBI{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-shadow: 20px 10px 20px black;
 
-.iconemetier{
-    fill:#b4ae24;
 }
-
 .iconeEmail{
     width: 100px;
     height: 100px;
-    text-color: #b4ae24;
     color: #b4ae24;
     fill: #b4ae24;
 }
@@ -112,18 +114,11 @@ h3{
 p{
     text-align:center;
 }
+section.itemsCRM{padding-top:0}
 
 
-section.content_middle_picture h2{font-family:"Open Sans",sans-serif;}
-section.content_middle_picture h3{margin-bottom: auto;}
-section.content_middle_picture ul{margin-top:auto;}
-section.content_middle_picture p{margin-right:auto;
-width: auto;
-    line-height: 90%;
-}
-section.content_middle_picture ul li.left p,section.content_middle_picture ul li.left h3{text-align:center}
 
-section.content_middle_picture ul li.right p,section.content_middle_picture ul li.right  h3{text-align:center}
+section.itemsBI{padding-top:0}
 
 
 footer{

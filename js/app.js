@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
-    $("#slogan").onload().fadeIn(3000); 
-         
-                         
-    
+    $("#slogan").onload().fadeIn(3000);
+
+
+
 });
