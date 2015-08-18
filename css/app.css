@@ -1,7 +1,8 @@
 
 section.header{
     color:#fff;
-    background-image:url("../images/general/BackLockedScreen3.jpg")
+    background-image:url("../images/general/BackLockedScreen3.jpg");
+
 }
 
 section.header img{
@@ -10,7 +11,10 @@ section.header img{
     bottom:-5em;
     display:block
 }
-
+.shadowdiv{
+    box-shadow:0 2px 8px rgba(0,0,0,.6);
+    padding: 10px;
+}
 section.header .slogan{
     font-size:2.7em;
     font-family:"Open Sans",sans-serif;
@@ -43,10 +47,10 @@ section.header .container{
 }
 
 .iconemetier{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     fill:#b4ae24;
-    text-shadow: 20px 200px 2px black;
+
 }
 section.itemsBI{
     padding-left: 10px;
@@ -80,6 +84,8 @@ section.itemsBI{
     margin-right: auto;
     display: block;*/
 }
+
+
 
 .partners-logo {
     margin:1em;
@@ -120,7 +126,14 @@ section.itemsCRM{padding-top:0}
 
 section.itemsBI{padding-top:0}
 
-
+.courrier{
+    color:#fff;
+    background-image:url("../images/general/BackLockedScreen3.jpg");
+}
+.courriertext{
+    color: #fff;
+    text-align: center;
+}
 footer{
     background-color:#353638;
     height:auto;

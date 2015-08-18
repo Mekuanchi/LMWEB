@@ -86,7 +86,7 @@ $(document).ready(function () {
 
                 if ($('#counter1').length > 0) {
 
-                    var counter1 = new countUp("counter1", 0, 2015, 0, 2, options);
+                    var counter1 = new countUp("counter1", 0, 47, 0, 4, options);
                     counter1.start();
                     $("#counter1").removeAttr("id");
 
@@ -94,13 +94,13 @@ $(document).ready(function () {
 
                 if ($('#counter2').length > 0) {
 
-                    var counter2 = new countUp("counter2", 0, 2016, 0, 2, options);
+                    var counter2 = new countUp("counter2", 0, 93, 0, 4, options);
                     counter2.start();
                     $("#counter2").removeAttr("id");
 
                 }
 
-                if ($('#counter3').length > 0) {
+                    if ($('#counter3').length > 0) {
 
                     var counter3 = new countUp("counter3", 0, 2017, 0, 2, options);
                     counter3.start();

@@ -47,13 +47,14 @@ img.icone,svg{
 }
 input{
     color:#353638
+
 }
 .btn{
     background-color:#b4ae24;
     color:#fff;
     margin-right:1em;
     font-weight:bold;
-    font-size:1.1em
+    font-size:1.1em;
 }
 .btn:hover{
     color:#fff;
@@ -157,8 +158,8 @@ section.items .description h3{
     color:#2a2a2a;
     font-size:2.2em
 }
-section.items .description p{line-height:190%}section.content_with_pictures_1{background-image:url("../images/general/BackLockedScreen4.jpg")}section.content_with_pictures_1,section.content_with_pictures_2{background-color:#fff;text-align:center}section.content_with_pictures_1 img.icone,section.content_with_pictures_1 svg,section.content_with_pictures_2 img.icone,section.content_with_pictures_2 svg{width:60px;height:60px}section.content_with_pictures_1 p.content_description,section.content_with_pictures_2 p.content_description{margin-bottom:4em}section.content_with_pictures_1 ul,section.content_with_pictures_2 ul{margin-top:10%}section.content_with_pictures_1 ul li,section.content_with_pictures_2 ul li{margin:5%}section.content_with_pictures_1 ul li p,section.content_with_pictures_2 ul li p{font-size:1.1em;height:5em}section.content_with_pictures_1 .firstPicture,section.content_with_pictures_1 .secondPicture,section.content_with_pictures_2 .firstPicture,section.content_with_pictures_2 .secondPicture{z-index:10;left:0}section.content_with_pictures_1 .firstPicture,section.content_with_pictures_2 .firstPicture{position:absolute;z-index:10}section.content_with_pictures_1 .secondPicture,section.content_with_pictures_2 .secondPicture{position:relative;z-index:9}section.content_with_pictures_1 li p{text-align:left}section.content_with_pictures_1 svg,section.content_with_pictures_1 img.icone{float:left;margin:2.5% 5% 5% auto}section.content_with_pictures_1 .firstPicture,section.content_with_pictures_1 .secondPicture{top:7.2em}section.content_with_pictures_2 li p{text-align:right}section.content_with_pictures_2 svg,section.content_with_pictures_2 img.icone{float:right;margin:2.5% auto 5% 5%}section.content_with_pictures_2 .firstPicture,section.content_with_pictures_2 .secondPicture{top:7em}
-
+/*section.items .description p{line-height:190%}section.content_with_pictures_1{background-image:url("../images/general/BackLockedScreen4.jpg")}section.content_with_pictures_1,section.content_with_pictures_2{background-color:#fff;text-align:center}section.content_with_pictures_1 img.icone,section.content_with_pictures_1 svg,section.content_with_pictures_2 img.icone,section.content_with_pictures_2 svg{width:60px;height:60px}section.content_with_pictures_1 p.content_description,section.content_with_pictures_2 p.content_description{margin-bottom:4em}section.content_with_pictures_1 ul,section.content_with_pictures_2 ul{margin-top:10%}section.content_with_pictures_1 ul li,section.content_with_pictures_2 ul li{margin:5%}section.content_with_pictures_1 ul li p,section.content_with_pictures_2 ul li p{font-size:1.1em;height:5em}section.content_with_pictures_1 .firstPicture,section.content_with_pictures_1 .secondPicture,section.content_with_pictures_2 .firstPicture,section.content_with_pictures_2 .secondPicture{z-index:10;left:0}section.content_with_pictures_1 .firstPicture,section.content_with_pictures_2 .firstPicture{position:absolute;z-index:10}section.content_with_pictures_1 .secondPicture,section.content_with_pictures_2 .secondPicture{position:relative;z-index:9}section.content_with_pictures_1 li p{text-align:left}section.content_with_pictures_1 svg,section.content_with_pictures_1 img.icone{float:left;margin:2.5% 5% 5% auto}section.content_with_pictures_1 .firstPicture,section.content_with_pictures_1 .secondPicture{top:7.2em}section.content_with_pictures_2 li p{text-align:right}section.content_with_pictures_2 svg,section.content_with_pictures_2 img.icone{float:right;margin:2.5% auto 5% 5%}section.content_with_pictures_2 .firstPicture,section.content_with_pictures_2 .secondPicture{top:7em}
+*/
 
 
 
