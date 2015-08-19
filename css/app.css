@@ -31,6 +31,27 @@ section.header .subtitle{
     line-height:30%
 }
 
+.btnAssistance{
+    /*background-color:#b4ae24;*/
+    color:#b4ae24;
+    width:60px;
+    height:auto;
+    margin-left:10px;
+    margin-bottom: 20px;
+}
+.btnAssistance:hover{
+    color:#b4ae24;
+    -webkit-animation:pulse 0.7s;
+    animation:pulse 0.7s
+}
+.btnAssistance:focus{
+    color:#fff
+}
+.assistance{
+    width:33px;
+    height:auto;
+}
+
 .newsletter{
     text-align: center;
 }
@@ -126,13 +147,26 @@ section.itemsCRM{padding-top:0}
 
 section.itemsBI{padding-top:0}
 
+
 .courrier{
     color:#fff;
     background-image:url("../images/general/BackLockedScreen3.jpg");
+    padding-right: 10px;
 }
 .courriertext{
     color: #fff;
     text-align: center;
+
+.btnAssistance{
+    align: left;
+}
+
+}
+.imgCourrier{
+    width:auto;
+    height:77px;
+    margin-bottom: 33px;
+    padding-left: auto;
 }
 footer{
     background-color:#353638;

@@ -50,14 +50,15 @@ input{
 
 }
 .btn{
-    background-color:#b4ae24;
-    color:#fff;
+    /*background-color:#b4ae24;*/
+    color:#b4ae24;
     margin-right:1em;
     font-weight:bold;
     font-size:1.1em;
+    margin-top:10px;
 }
 .btn:hover{
-    color:#fff;
+    color:#b4ae24;
     -webkit-animation:pulse 0.7s;
     animation:pulse 0.7s
 }
