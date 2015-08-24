@@ -2,7 +2,6 @@
 section.header{
     color:#fff;
     background-image:url("../images/general/BackLockedScreen3.jpg");
-
 }
 
 section.header img{
@@ -11,10 +10,12 @@ section.header img{
     bottom:-5em;
     display:block
 }
+
 .shadowdiv{
     box-shadow:0 2px 8px rgba(0,0,0,.6);
     padding: 10px;
 }
+
 section.header .slogan{
     font-size:2.7em;
     font-family:"Open Sans",sans-serif;
@@ -34,19 +35,14 @@ section.header .subtitle{
 .btnAssistance{
     /*background-color:#b4ae24;*/
     color:#b4ae24;
-    width:60px;
+    width:22px;
     height:auto;
     margin-left:10px;
+    margin-right:10px;
     margin-bottom: 20px;
+    display:inline;
 }
-.btnAssistance:hover{
-    color:#b4ae24;
-    -webkit-animation:pulse 0.7s;
-    animation:pulse 0.7s
-}
-.btnAssistance:focus{
-    color:#fff
-}
+
 .assistance{
     width:33px;
     height:auto;
@@ -71,16 +67,16 @@ section.header .container{
     width: 70px;
     height: 70px;
     fill:#b4ae24;
-
 }
+
 section.itemsBI{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     text-shadow: 20px 10px 20px black;
-
 }
+
 .iconeEmail{
     width: 100px;
     height: 100px;
@@ -105,8 +101,6 @@ section.itemsBI{
     margin-right: auto;
     display: block;*/
 }
-
-
 
 .partners-logo {
     margin:1em;
@@ -135,33 +129,52 @@ h2{
     color:#b4ae24;
     text-align:center;
 }
+
 h3{
     color:#b4ae24;
 }
+
 p{
     text-align:center;
 }
 section.itemsCRM{padding-top:0}
 
-
-
 section.itemsBI{padding-top:0}
-
 
 .courrier{
     color:#fff;
     background-image:url("../images/general/BackLockedScreen3.jpg");
     padding-right: 10px;
 }
-.courriertext{
+.courriertext {
     color: #fff;
     text-align: center;
-
+}
 .btnAssistance{
-    align: left;
+    height=77px;
+    width=auto;
+}
+.newsletter-form input#nom{
+    display:inline-block;
+    border-radius:0.4em 0 0 0.4em;
+    -moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;float:center;
+    margin-bottom: 15px;
+}
+.newsletter-form input#telephone{
+    display:block;
+    border-radius:0.4em 0 0 0.4em;
+    -moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;float:center;
+    margin-bottom: 15px;
+}
+.shadowchamp{
+    box-shadow:0 2px 8px rgba(0,0,0,.6);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
-}
+
 .imgCourrier{
     width:auto;
     height:77px;
