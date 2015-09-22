@@ -182,12 +182,20 @@ section.content_middle_picture img{top:6em;left:0;position:absolute}*/
 
 
 
-section.gallery_of_pictures #pictures-gallery{margin-top:3em}section.gallery_of_pictures #pictures-gallery div.img{-moz-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-webkit-transition:all 1s ease-in-out;transition:all 1s ease-in-out}section.gallery_of_pictures #pictures-gallery div.img:hover{-moz-transform:scale(0.8);-ms-transform:scale(0.8);-o-transform:scale(0.8);-webkit-transform:scale(0.8);transform:scale(0.8)}section.text_and_dates{background-image:url("../images/general/BackLockedScreen2.jpg")}section.text_and_dates p{margin-bottom:5%}section.text_and_dates ul li{text-align:center;margin-bottom:2%}section.text_and_dates ul li p{margin:0}section.text_and_dates ul li h3{text-align:center}section.text_and_dates ul li small{color:#b4ae24}section.newsletter{padding-bottom:0}section.newsletter,footer{min-height:0;max-height:none;height:27em;background-color:#b4ae24;color:#fff}section.newsletter h2,footer h2{color:#353638}section.newsletter h4{color:#fff;text-align:center}section.newsletter p,footer p{color:#b4ae24;margin-bottom:4em}section.newsletter .newsletter-form,footer .newsletter-form{width:19.9em;position:relative;margin:0 auto}section.newsletter .newsletter-form input,footer .newsletter-form input{border:0;padding:1em;font-size:1.2em;height:3em;padding-left:1em}
-section.newsletter .newsletter-form input#email,footer.newsletter-form input#email{
-    display:inline-block;
-    border-radius:0.4em 0 0 0.4em;
-    -moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;float:left:
+section.gallery_of_pictures #pictures-gallery{margin-top:3em}section.gallery_of_pictures #pictures-gallery div.img{-moz-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out;-webkit-transition:all 1s ease-in-out;transition:all 1s ease-in-out}section.gallery_of_pictures #pictures-gallery div.img:hover{-moz-transform:scale(0.8);-ms-transform:scale(0.8);-o-transform:scale(0.8);-webkit-transform:scale(0.8);transform:scale(0.8)}section.text_and_dates{background-image:url("../images/general/BackLockedScreen2.jpg")}section.text_and_dates p{margin-bottom:5%}section.text_and_dates ul li{text-align:center;margin-bottom:2%}section.text_and_dates ul li p{margin:0}section.text_and_dates ul li h3{text-align:center}section.text_and_dates ul li small{color:#b4ae24}
+section.newsletter{padding-bottom:150}
+section.newsletter,footer{
+    min-height:0;
+    max-height:none;
+    height:auto;
+    background-color:#b4ae24;
+    color:#fff
 }
+section.newsletter h2,footer h2{color:#353638}section.newsletter h4{color:#fff;text-align:center}
+section.newsletter p,footer p{color:#b4ae24;margin-bottom:4em}
+section.newsletter .newsletter-form,footer .newsletter-form{width:auto;position:relative;margin:0 auto}
+section.newsletter .newsletter-form input,footer .newsletter-form input{border:0;padding:1em;font-size:1.2em;height:3em;padding-left:1em}
+section.newsletter .newsletter-form input#email,footer
 section.newsletter
 /*.newsletter-form input#submit,footer .newsletter-form input#submit{
     border-radius:0 0.4em 0.4em 0;
